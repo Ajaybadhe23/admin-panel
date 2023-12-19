@@ -1,0 +1,29 @@
+fieldset {
+    border: 0px !important;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.54) !important;
+    border-radius: 0px !important;
+}
+
+label {
+    color: rgba(0, 0, 0, 0.54) !important;
+    padding: 0;
+    font-size: 1rem;
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    font-weight: 400;
+    line-height: 1;
+    letter-spacing: 0.00938em;
+
+}
+
+input[placeholder="DD-MM-YYYY"] {
+    padding: 12.5px 14px !important;
+}
+
+.MuiTableCell-head {
+    background-color: rgb(230, 230, 230);
+}
+
+th {
+    text-transform: uppercase;
+    font-weight: 900;
+}
