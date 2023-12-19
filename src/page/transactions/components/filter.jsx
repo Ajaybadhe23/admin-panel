@@ -23,7 +23,7 @@ function Filter({ search, handleSearchChange }) {
                             <CustomDatePicker
                                 value={search.from}
                                 setValue={(e) => handleSearchChange('from', e)}
-                                label="from"
+                                label="From"
                             />
                         </Box>
                     </Grid>
@@ -32,7 +32,7 @@ function Filter({ search, handleSearchChange }) {
                             <CustomDatePicker
                                 value={search.to}
                                 setValue={(e) => handleSearchChange('to', e)}
-                                label="to"
+                                label="To"
                             />
                         </Box>
                     </Grid>
