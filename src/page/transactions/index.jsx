@@ -10,7 +10,7 @@ import {
 } from '@material-ui/core';
 import { makeStyles } from '@material-ui/core/styles';
 import { initialData } from '../../constants';
-import Form from './components/form';
+import Filter from './components/filter';
 import TableList from './components/table';
 
 
@@ -102,7 +102,7 @@ const Transaction = () => {
             <div style={{ marginBottom: 20 }} >Total ({data.length}) </div>
             <Grid container spacing={2}>
                 {/* Search filters */}
-                <Form search={search} handleSearchChange={handleSearchChange} />
+                <Filter search={search} handleSearchChange={handleSearchChange} />
                 {error}
 
                 {/* table */}

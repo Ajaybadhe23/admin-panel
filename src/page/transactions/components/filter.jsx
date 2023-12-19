@@ -8,14 +8,14 @@ import {
     Box
 } from '@material-ui/core';
 
-function Form({ search, handleSearchChange }) {
+function Filter({ search, handleSearchChange }) {
     const branches = ['Thane', 'Navi Mumbai', 'Mumbai', 'Kurla', 'Vile Parle', 'Lower Parel', 'Andheri', 'Byculla'];
     const types = ['Full', 'Short'];
     const statuses = ['Pending', 'Approved', 'Rejected'];
 
     return (
         <>
-            <Grid item xs={8}>
+            <Grid item xs={9}>
                 <Grid container spacing={3}>
 
                     <Grid item xs={12} sm={2}>
@@ -51,7 +51,7 @@ function Form({ search, handleSearchChange }) {
                 </Grid>
             </Grid>
 
-            <Grid item xs={4}>
+            <Grid item xs={3}>
                 <Box style={{ display: "flex", justifyContent: "end " }}>
                     <TextField
                         label="ID"
@@ -64,4 +64,4 @@ function Form({ search, handleSearchChange }) {
     )
 }
 
-export default Form
+export default Filter
